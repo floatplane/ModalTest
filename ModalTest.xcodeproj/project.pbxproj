@@ -22,6 +22,9 @@
 		D3B41964197832ED00830814 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3B41943197832ED00830814 /* UIKit.framework */; };
 		D3B4196C197832ED00830814 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D3B4196A197832ED00830814 /* InfoPlist.strings */; };
 		D3B4196E197832ED00830814 /* ModalTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B4196D197832ED00830814 /* ModalTestTests.m */; };
+		D3B41979197833C700830814 /* BackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B41978197833C700830814 /* BackgroundView.m */; };
+		D3B4197F19783FCA00830814 /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B4197D19783FCA00830814 /* ModalViewController.m */; };
+		D3B4198019783FCA00830814 /* ModalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3B4197E19783FCA00830814 /* ModalViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,11 @@
 		D3B41969197832ED00830814 /* ModalTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ModalTestTests-Info.plist"; sourceTree = "<group>"; };
 		D3B4196B197832ED00830814 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D3B4196D197832ED00830814 /* ModalTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModalTestTests.m; sourceTree = "<group>"; };
+		D3B41977197833C700830814 /* BackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundView.h; sourceTree = "<group>"; };
+		D3B41978197833C700830814 /* BackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundView.m; sourceTree = "<group>"; };
+		D3B4197C19783FCA00830814 /* ModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModalViewController.h; path = ../ModalViewController.h; sourceTree = "<group>"; };
+		D3B4197D19783FCA00830814 /* ModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ModalViewController.m; path = ../ModalViewController.m; sourceTree = "<group>"; };
+		D3B4197E19783FCA00830814 /* ModalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ModalViewController.xib; path = ../ModalViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +122,9 @@
 		D3B41945197832ED00830814 /* ModalTest */ = {
 			isa = PBXGroup;
 			children = (
+				D3B4197C19783FCA00830814 /* ModalViewController.h */,
+				D3B4197D19783FCA00830814 /* ModalViewController.m */,
+				D3B4197E19783FCA00830814 /* ModalViewController.xib */,
 				D3B4194E197832ED00830814 /* AppDelegate.h */,
 				D3B4194F197832ED00830814 /* AppDelegate.m */,
 				D3B41951197832ED00830814 /* Main_iPhone.storyboard */,
@@ -122,6 +133,8 @@
 				D3B41958197832ED00830814 /* ViewController.m */,
 				D3B4195A197832ED00830814 /* Images.xcassets */,
 				D3B41946197832ED00830814 /* Supporting Files */,
+				D3B41977197833C700830814 /* BackgroundView.h */,
+				D3B41978197833C700830814 /* BackgroundView.m */,
 			);
 			path = ModalTest;
 			sourceTree = "<group>";
@@ -232,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3B41956197832ED00830814 /* Main_iPad.storyboard in Resources */,
+				D3B4198019783FCA00830814 /* ModalViewController.xib in Resources */,
 				D3B4195B197832ED00830814 /* Images.xcassets in Resources */,
 				D3B41953197832ED00830814 /* Main_iPhone.storyboard in Resources */,
 				D3B4194A197832ED00830814 /* InfoPlist.strings in Resources */,
@@ -255,6 +269,8 @@
 			files = (
 				D3B41959197832ED00830814 /* ViewController.m in Sources */,
 				D3B41950197832ED00830814 /* AppDelegate.m in Sources */,
+				D3B4197F19783FCA00830814 /* ModalViewController.m in Sources */,
+				D3B41979197833C700830814 /* BackgroundView.m in Sources */,
 				D3B4194C197832ED00830814 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

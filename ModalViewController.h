@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ModalViewController.h
 //  ModalTest
 //
 //  Created by Brian Sharon on 7/17/14.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-- (IBAction)showSystemAlert:(id)sender;
-- (IBAction)showModalFormSheet:(id)sender;
+@interface ModalViewController : UIViewController
+- (IBAction)dismiss:(id)sender;
 
 @end
