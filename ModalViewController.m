@@ -29,6 +29,14 @@
     // Do any additional setup after loading the view from its nib.
 }
 
+- (UIResponder *)nextResponder
+{
+    UIResponder *next = [super nextResponder];
+
+    // Returning nil here stops events from going further
+    return next;
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
